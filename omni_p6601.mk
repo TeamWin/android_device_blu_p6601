@@ -27,9 +27,6 @@ PRODUCT_PACKAGES += \
     charger_res_images \
     charger
 
-PRODUCT_COPY_FILES += \
-    device/blu/p6601/kernel:kernel
-
 PRODUCT_NAME := omni_p6601
 PRODUCT_DEVICE := p6601
 PRODUCT_BRAND := BLU

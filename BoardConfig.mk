@@ -30,7 +30,7 @@ BOARD_TAGS_OFFSET = 0x0e000000
 BOARD_REL_NAME = BLU_R0010UU_V6.
 BOARD_MKBOOTIMG_ARGS := --kernel_offset $(BOARD_KERNEL_OFFSET) --ramdisk_offset $(BOARD_RAMDISK_OFFSET) --tags_offset $(BOARD_TAGS_OFFSET) --board $(BOARD_REL_NAME)
 
-TARGET_PREBUILT_KERNEL := device/blu/p6601/kernel
+TARGET_PREBUILT_KERNEL := device/blu/p6601/prebuilt/zImage-dtb
 
 # Mediatek flags
 CONFIG_MTK_PLATFORM := $(TARGET_BOARD_PLATFORM) # used in kernel src
