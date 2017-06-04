@@ -1,3 +1,5 @@
+LOCAL_PATH := device/blu/p6601
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := mt6735
 TARGET_NO_BOOTLOADER := true
